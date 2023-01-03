@@ -24,6 +24,7 @@ public class Listeners extends Base implements ITestListener{
 		String testname=tr.getName();
 		extenttest=extentreport.createTest(testname+"executon stareted");
 		extenttestthread.set(extenttest);
+		System.out.println("started");
 		
 }
 	@Override
